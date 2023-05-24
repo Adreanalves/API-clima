@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+    font-family: 'Arvo', serif;
+    background-image: url("depositphotos_8721366-stock-photo-old-map.jpg");
+    background-size: cover;
+}
+
+.city{
+    font-size: 32px;
+}
+
+.date {
+    font-size: 16px;
+}
+
+.container-temp{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(72deg, rgb(255, 251, 10) 1%, #e9db63 99%);
+    box-shadow: 5px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather{
+
+    font-size: 32px;
+    
+}
+
+.low-high {
+    font-size: 22px;
+}
